@@ -8,10 +8,13 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android>permission.CALL_PHONE"/>
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="모두의 여행"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/launcher_icon"
+        android:screenOrientation="portrait">
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBI0ulMfh8l3YEx1DLF3pFcbk0JnOG4cSE"/>
         <activity
